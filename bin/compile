@@ -150,7 +150,7 @@ export R_INCLUDE=$R_HOME/lib64/R/include
 export LD_LIBRARY_PATH="/lib:/usr/lib:$R_HOME/lib64:$JAVA_HOME/lib/amd64:$JAVA_HOME/lib/amd64/server:$LD_LIBRARY_PATH"
 ln -s /usr/lib/libreadline.so $R_HOME/lib64/libreadline.so.5 2>&1
 
-
+R CMD javareconf
 
 echo "variables set" | indent
 
