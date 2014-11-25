@@ -85,7 +85,7 @@ JAVA_BINARIES="http://download.oracle.com/otn-pub/java/jdk/7u71-b14/jdk-7u71-lin
 
 VENDOR_DIR="$BUILD_DIR/vendor"
 R_HOME="$VENDOR_DIR/R"
-JAVA_HOME="$VENDOR_DIR/jdk1.7.0_71"
+JAVA_HOME="$VENDOR_DIR/jdk1.7.0_71/jre"
 CRAN_MIRROR="http://cran.revolutionanalytics.com"
 
 mkdir -p $CACHE_DIR
